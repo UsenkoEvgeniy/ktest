@@ -1,0 +1,6 @@
+services:
+  quote-server:
+    build: /
+    image: service
+    ports:
+      - "8080:8080"
